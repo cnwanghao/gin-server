@@ -1,12 +1,11 @@
 package ginserver
 
 import (
+	"github.com/gin-gonic/gin"
+	"github.com/go-oauth2/oauth2/v4"
+	"github.com/go-oauth2/oauth2/v4/server"
 	"net/http"
 	"sync"
-
-	"github.com/gin-gonic/gin"
-	"gopkg.in/oauth2.v3"
-	"gopkg.in/oauth2.v3/server"
 )
 
 var (
